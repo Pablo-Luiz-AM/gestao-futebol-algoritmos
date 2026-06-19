@@ -1,6 +1,6 @@
 # Metodologia
 
-Esta seção descreve a organização da equipe para a execução das tarefas de desenvolvimento do Sistema de Agenda de Compromissos e as ferramentas utilizadas para a manutenção dos códigos e demais artefatos.
+Esta seção descreve a organização da equipe para a execução das tarefas de desenvolvimento do Sistema de Gestao de Futebol - Algoritmos e as ferramentas utilizadas para a manutenção dos códigos e demais artefatos.
 
 
 ## Gerenciamento de Projeto
