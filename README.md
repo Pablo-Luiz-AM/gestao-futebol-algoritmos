@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Gestao de Futebol - Algoritmos
 
 Plataforma para gestão e análise estatística de futebol. Auxilia comissões técnicas na avaliação de atletas e métricas de jogos.
@@ -28,3 +29,6 @@ Plataforma para gestão e análise estatística de futebol. Auxilia comissões t
 # Apresentação
 
 * <a href="apresentacao/README.md">Apresentação do Projeto</a>
+=======
+# gestao-futebol-algoritmos
+>>>>>>> c62208b9dad831502cbca7f0f5844499b3a5bd53
