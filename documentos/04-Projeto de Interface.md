@@ -53,7 +53,9 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 
 <h3><b>Média de Gols</b></h3>
 <p>Realiza um cálculo de média de gols por partida, baseando-se na temporada.</p>
-  
+
+<img width="1117" height="443" alt="image" src="https://github.com/user-attachments/assets/b3a09fad-0d45-4f06-ab1e-4c603dd31dd8" />
+ 
 <figure> 
   <figcaption>Figura 4 - Média de gols por partida
 </figure> 
@@ -62,7 +64,9 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 
 <h3><b>Tempo de Jogo</b></h3>
 <p>Calcula o tempo jogado a partir de uma base em minutos, e depois converte esse valor para horas e minutos.</p>
-  
+
+<img width="1114" height="383" alt="image" src="https://github.com/user-attachments/assets/1a2b0cb0-31dd-4f53-baeb-07a68e336a79" />
+
 <figure> 
   <figcaption>Figura 5 - Conversão de minutos para tempo de jogo
 </figure>
@@ -72,7 +76,8 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <hr>
 <h3><b>Aproveitamento do Time</b></h3>
 <p>Calcula o número total de pontos da temporada por meio do número total de vitórias, empates e derrotas na temporada.</p>
-  
+
+<img width="1114" height="489" alt="image" src="https://github.com/user-attachments/assets/e5bb604d-4603-4773-96db-537988340efe" />
 
 <figure> 
   <figcaption>Figura 6 - Calculando o aproveitamento do time
@@ -83,8 +88,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Diferença de Salarial</b></h3>
 <p>Calculando a diferença salarial entre dois jogadores do mesmo time.</p>
 
-
-
+<img width="1478" height="436" alt="image" src="https://github.com/user-attachments/assets/3ed122a9-5d2b-4fc2-b5af-d20358cc79a8" />
 
 <figure> 
   <figcaption>Figura 7 - Calculando a diferença de salários entre jogadores
@@ -95,7 +99,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Verificação Disciplinar</b></h3>
 <p>Calcula o número de expulsões e suspensões na temporada, baseando-se no número de cartões recebidos.</p>
 
-
+<img width="1479" height="515" alt="image" src="https://github.com/user-attachments/assets/83f0b1cb-0994-4e89-b388-6b4704c8e243" />
 
 <figure> 
   <figcaption>Figura 8 - Sumula de cartões
