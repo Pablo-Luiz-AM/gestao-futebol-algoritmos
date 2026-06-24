@@ -30,6 +30,9 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 
 <h3><b>Apresentação do Jogador</b></h3>
 <p>Inserir os dados do jogador.</p>
+
+<img width="1113" height="622" alt="image" src="https://github.com/user-attachments/assets/187f14ad-0159-437f-9a7e-cbef53a11b2d" />
+
   
 <figure> 
   <figcaption>Figura 2 - Apresentação do Jogador
@@ -39,7 +42,8 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 
 <h3><b>Verificar se um Jogador Pode Jogar</b></h3>
 <p>Verifica a categoria profissional em que o jogador está qualificado a jogar.</p>
-  
+
+<img width="1117" height="763" alt="image" src="https://github.com/user-attachments/assets/ef9eb99b-dbf9-45c5-be99-8d5accf96ee9" />
 
 <figure> 
   <figcaption>Figura 3 - Verificar de categoria profissional
