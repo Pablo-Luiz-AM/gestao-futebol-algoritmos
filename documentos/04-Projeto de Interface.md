@@ -4,9 +4,7 @@
 
 O fluxograma ilustrado na Figura 1 mapeia a jornada do usuário pelas interfaces do sistema. O detalhamento individual de cada prompt pode ser consultado na seção Protótipo de Baixa Fidelidade a seguir. Para experimentar a navegação em tempo real, acesse o protótipo interativo através do link: [Figma](https://www.figma.com/)
 
-
-
-
+<img width="1178" height="671" alt="image" src="https://github.com/user-attachments/assets/64051e18-ea42-46cc-89af-db3c7895b3f0" />
 
 ### Protótipo de baixa fidelidade
 
