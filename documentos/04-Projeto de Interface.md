@@ -2,7 +2,7 @@
 
 ## User Flow
 
-O fluxograma ilustrado na Figura 1 mapeia a jornada do usuário pelas interfaces do sistema. O detalhamento individual de cada prompt pode ser consultado na seção Protótipo de Baixa Fidelidade a seguir. Para experimentar a navegação em tempo real, acesse o protótipo interativo através do link: [Figma](https://www.figma.com/)
+O fluxograma ilustrado na Figura 1 mapeia a jornada do usuário pelas interfaces do sistema. O detalhamento individual de cada prompt pode ser consultado na seção Protótipo de Baixa Fidelidade a seguir. Para experimentar a navegação em tempo real, acesse o protótipo interativo através do link: [Penpot](https://design.penpot.app/#/view?file-id=f0485fb1-4e63-8165-8008-3a2e3c17c0a4&page-id=f0485fb1-4e63-8165-8008-3a2e3c17c0a5&section=interactions&frame-id=ab82e3a2-befc-8085-8008-3a2e4762146e&index=0&share-id=974ae998-b937-80f4-8008-3bb1214bee74)
 
 <img width="1133" height="754" alt="image" src="https://github.com/user-attachments/assets/87c25553-6b36-4f25-a83d-e8b8194d3997" />
 
@@ -17,12 +17,11 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 - Area de Trabalho - apresenta o conteúdo do prompt em questão;
  
 >- Ferramentas:
->> - [Figma](https://www.figma.com/)
-
+>> - [Penpot](https://penpot.app/)
 
 <figure> 
-
-    <figcaption>Figura 1 - Estrutura padrão do site
+<img width="1248" height="752" alt="image" src="https://github.com/user-attachments/assets/1341c284-5d80-4d8c-9e5d-65b4271f685b" />
+    <figcaption>Figura 1 - Estrutura padrão do sistema
 </figure> 
 <hr>
 
@@ -31,8 +30,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <p>Inserir os dados do jogador.</p>
 
 <img width="1156" height="652" alt="image" src="https://github.com/user-attachments/assets/b6edf151-b2e8-48d8-82b4-20d9af58032b" />
-
-  
+ 
 <figure> 
   <figcaption>Figura 2 - Apresentação do Jogador
 </figure> 
@@ -44,7 +42,6 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 
 <img width="1154" height="431" alt="image" src="https://github.com/user-attachments/assets/66541538-8bfb-42ad-b0f1-32783a52085d" />
 
-
 <figure> 
   <figcaption>Figura 3 - Verificar de categoria profissional
 </figure>
@@ -54,7 +51,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Média de Gols</b></h3>
 <p>Realiza um cálculo de média de gols por partida, baseando-se na temporada.</p>
 
-<img width="1167" height="404" alt="image" src="https://github.com/user-attachments/assets/fe718d28-ecf1-4046-a42f-92d3070fe591" />
+<img width="1167" height="462" alt="image" src="https://github.com/user-attachments/assets/59b2d1d3-ecc5-4753-8803-90b65a4e4abb" />
  
 <figure> 
   <figcaption>Figura 4 - Média de gols por partida
