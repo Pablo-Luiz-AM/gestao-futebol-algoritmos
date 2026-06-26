@@ -32,16 +32,14 @@ Entrada de Dados: Cada bloco possui campos de inserção rápida para "Gols", "M
 <h3><b>Tela de visualização de Apresentação</b></h3>
 <p>Exibe informações sobre as Jogador, como o seus dados.</p>
 <figure> 
-
-
+<img width="1156" height="652" alt="image" src="https://github.com/user-attachments/assets/b6edf151-b2e8-48d8-82b4-20d9af58032b" />
   <figcaption> Figura 1 -  Apresentação
 </figure> 
 
 <h3><b>Tela de visualização do Estatísticas</b></h3>
 <p>Exibe informações sobre as estatísticas do jogador.</p>
 <figure> 
-
-
+<img width="1501" height="456" alt="image" src="https://github.com/user-attachments/assets/1b0d9161-e214-4309-9908-e5ba3d8e5b05" />
   <figcaption>Figura 2 - Estatísticas     
 </figure> 
 <hr>
