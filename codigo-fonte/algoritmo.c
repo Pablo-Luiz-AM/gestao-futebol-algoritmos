@@ -56,7 +56,33 @@ if(idade <= 20){
 	// Saída de Dados - O jogador devera jogar na categoria (Profissional)
 	printf("%s devera jogar na categoria Profissional, pois possui %d anos de idade", nome, idade);
 };
+
+// Média de gols por partida
+
+// Entrada de Dados - Média de gols por partida
+printf("\n----------------------------------------------------------------------------");
+printf("\n---------------------- Media de gols por partida ------------------------");
 printf("\n----------------------------------------------------------------------------\n");
+
+// Entrada de Dados - (Gols marcados pelo jogador na temporada atual)
+printf("Digite a quantidade de gols marcados pelo jogador na temporada atual: ");
+scanf("%d", &golsM);
+
+// Entrada de Dados - (Gols marcados pelo jogador na temporada atual)
+printf("Digite a quantidade de partidas realizadas pelo jogador na temporada atual:");
+scanf("%d", &partidasT);
+
+// Processamento de Dados - Média de gols por partida
+// Calculando a média de gols por partida do jogador
+// A média de gols por partida do jogador se resume na divisão de seu número de gols na temporada atual pelo seu número de partidas na temporada atual
+
+mediaG = (float) golsM / partidasT;
+
+// Saída de Dados - Média de gols por partida
+// Saída de Dados - Média
+printf("\n======================= Media de gols ============================\n");
+printf("%s tem uma media de (%.2f) Gols por partida na temporada atual", nome, mediaG);
+printf("\n==================================================================\n");
 
 return 0;	
 }
