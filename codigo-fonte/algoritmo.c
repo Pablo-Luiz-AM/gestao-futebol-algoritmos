@@ -4,15 +4,15 @@ int main(){
 	
 // Variáveis de Ambiente
 
-	int idade, golsC, golsM, partidasT, minutos, horas, minutosR;
+	int idade, golsC, golsM, partidasT, minutos, horas, minutosR, vitorias, empates, derrotas, pontos;
 	float mediaG;
-	char nome[20];
+	char nome[20], nomeT[20];
 
 // Apresentação do Jogador
 
 // Entrada de Dados - Apresentação do Jogador
 printf("----------------------------------------------------------------------------");
-printf("\n---------------------- Apresentacao do Jogador ------------------------");
+printf("\n----------------------- Apresentacao do Jogador --------------------------");
 printf("\n----------------------------------------------------------------------------");
 
 // Entrada de Dados - (Nome) do jogador
@@ -84,7 +84,7 @@ printf("\n======================= Media de gols ============================\n")
 printf("%s tem uma media de (%.2f) Gols por partida na temporada atual", nome, mediaG);
 printf("\n==================================================================");
 
-//Conversão de minutos para tempo de jogo
+// Conversão de minutos para tempo de jogo
 printf("\n----------------------------------------------------------------------------");
 printf("\n----------------------------- Tempo de Jogo --------------------------------");
 printf("\n----------------------------------------------------------------------------\n");
@@ -101,16 +101,63 @@ minutosR = minutos % 60;
 if(horas > 1){
 // Saída de Dados - Conversão de minutos para tempo de jogo
 // Saída de Dados - (Tempo de Jogo)
-printf("\n================== Resultado =================\n");
+printf("\n=================== Resultado =====================\n");
 printf("%s jogou %d horas e %d minutos na temporada", nome, horas, minutosR);
-printf("\n==============================================");
+printf("\n===================================================");
 } else{
 // Saída de Dados - Conversão de minutos para tempo de jogo
 // Saída de Dados - (Tempo de Jogo)
-printf("\n================== Resultado =================\n");
+printf("\n=================== Resultado ====================\n");
 printf("%s jogou %d hora e %d minutos na temporada", nome, horas, minutosR);
-printf("\n==============================================");	
+printf("\n==================================================");	
 };
+
+
+// Calculando o aproveitamento do time
+printf("\n----------------------------------------------------------------------------");
+printf("\n------------------------- Aproveitamento do Time ---------------------------");
+printf("\n----------------------------------------------------------------------------\n");
+
+// Entrada de Dados - (Aproveitamento do Time)
+// Entrada de Dados - Nome do Time
+printf("Digite o nome do Time: ");
+scanf("%s", &nomeT);
+
+// Entrada de Dados - Quantidade de Vitorias na Temporada
+printf("\nDigite a quantidade de vitorias do %s na temporada atual: ", nomeT);
+scanf("%d", &vitorias);
+
+// Entrada de Dados - Quantidade de Empate na Temporada
+printf("\nDigite a quantidade de empates do %s na temporada atual: ", nomeT);
+scanf("%d", &empates);
+
+// Entrada de Dados - Quantidade de Derrotas na Temporada
+printf("\nDigite a quantidade de derrotas do %s na temporada atual: ", nomeT);
+scanf("%d", &derrotas);
+
+// Processamento - Calculando o aproveitamento do time
+// Calcula o número total de pontos da temporada por meio do número total de vitórias, empates e derrotas na temporada
+
+// Processamento - Regras
+// Vitoria = 3 - Pontos
+// Empate = 1 - Ponto
+// Derrota = 0 - Pontos
+
+pontos = (vitorias * 3) + empates;
+
+// Saída de Dados - Calculando o aproveitamento do time
+// Saída de Dados - (Aproveitamento do Time)
+printf("\n============================================= Resultado ==============================================\n");
+printf("Somando todos o dados de Vitorias, Empates e Derrotas o Time do %s acumulou serca de:", nomeT);
+printf("\n\n============ %s ===========\n", nomeT);
+printf("Vitorias: %d", vitorias);
+printf("\nEmpates: %d", empates);
+printf("\nDerrotas: %d", derrotas);
+printf("\nTotal de Pontos: %d", pontos);
+printf("\n================================\n\n");
+printf("=======================================================================================================\n");
+printf("O Time do %s teve o aproveitamento de: %d - Pontos na Temporada", nomeT, pontos);
+printf("\n=======================================================================================================");	
 
 return 0;	
 }
