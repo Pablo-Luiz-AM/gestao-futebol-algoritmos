@@ -151,7 +151,7 @@ pontos = (vitorias * 3) + empates;
 
 // Saída de Dados - Calculando o aproveitamento do time
 printf("\n============================================= Resultado ==============================================\n");
-printf("Somando todos o dados de Vitorias, Empates e Derrotas o Time do %s acumulou serca de:", time);
+printf("Somando todos o dados de Vitorias, Empates e Derrotas do Time %s acumulou serca de:", time);
 // Saída de Dados - Nome do (Time)
 printf("\n\n============ %s ===========\n", time);
 // Saída de Dados - (Vitorias) do Time
