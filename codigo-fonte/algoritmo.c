@@ -4,7 +4,7 @@ int main(){
 	
 // Variáveis de Ambiente
 
-	int idade, golsC, golsM, partidasT;
+	int idade, golsC, golsM, partidasT, minutos, horas, minutosR;
 	float mediaG;
 	char nome[20];
 
@@ -61,7 +61,7 @@ if(idade <= 20){
 
 // Entrada de Dados - Média de gols por partida
 printf("\n----------------------------------------------------------------------------");
-printf("\n---------------------- Media de gols por partida ------------------------");
+printf("\n----------------------- Media de gols por partida --------------------------");
 printf("\n----------------------------------------------------------------------------\n");
 
 // Entrada de Dados - (Gols marcados pelo jogador na temporada atual)
@@ -82,7 +82,35 @@ mediaG = (float) golsM / partidasT;
 // Saída de Dados - Média
 printf("\n======================= Media de gols ============================\n");
 printf("%s tem uma media de (%.2f) Gols por partida na temporada atual", nome, mediaG);
-printf("\n==================================================================\n");
+printf("\n==================================================================");
+
+//Conversão de minutos para tempo de jogo
+printf("\n----------------------------------------------------------------------------");
+printf("\n----------------------------- Tempo de Jogo --------------------------------");
+printf("\n----------------------------------------------------------------------------\n");
+
+// Entrada de Dados - (Tempo de Jogo)
+// Entrada de Dados - Minutos Jogados em Campo na Temporada
+printf("Digite a quantidade de minutos jogados na temporada: ");
+scanf("%d", &minutos);
+
+// Processamento - Conversão de minutos para tempo de jogo
+// Calcula o tempo jogado a partir de uma base em minutos, e depois converte esse valor para horas e minutos
+horas = minutos / 60;
+minutosR = minutos % 60;
+if(horas > 1){
+// Saída de Dados - Conversão de minutos para tempo de jogo
+// Saída de Dados - (Tempo de Jogo)
+printf("\n================== Resultado =================\n");
+printf("%s jogou %d horas e %d minutos na temporada", nome, horas, minutosR);
+printf("\n==============================================");
+} else{
+// Saída de Dados - Conversão de minutos para tempo de jogo
+// Saída de Dados - (Tempo de Jogo)
+printf("\n================== Resultado =================\n");
+printf("%s jogou %d hora e %d minutos na temporada", nome, horas, minutosR);
+printf("\n==============================================");	
+};
 
 return 0;	
 }
