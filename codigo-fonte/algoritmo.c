@@ -213,5 +213,41 @@ printf("\nDiferenca Salarial: %.2fR$", diferenca);
 printf("\n================================\n\n");
 printf("=======================================================================================================\n");
 
+// Avalia o desempenho do jogador
+
+// Processamento - Avalia o desempenho do jogador
+
+// Se fez mais de 10 gols, exibir "Excelente temporada!"
+
+// Se fez entre 5 e 10 gols (inclusive), exibir "Boa temporada!"
+
+// Se fez menos de 5 gols, exibir "Temporada abaixo do esperado."
+
+// Processamento - Se fez mais de 10 gols, exibir "Excelente temporada!"
+if (golsM > 10){
+// Saída de Dados - Avalia o desempenho do jogador
+printf("\n\n==================================== Desempenho do Jogador ==========================================\n");
+// Saída de Dados - ("Excelente temporada!")
+printf("Status: Excelente temporada!\n");
+printf("%s realizou %d Gols na temporada atual, ficando acima da media de 10 Gols", nome, golsM);
+printf("\n======================================================================================================\n");	
+// Processamento - Se fez entre 5 e 10 gols (inclusive), exibir "Boa temporada!"
+} else if (golsM >= 10 && golsM >= 5){
+// Saída de Dados - Avalia o desempenho do jogador
+printf("\n\n==================================== Desempenho do Jogador ==========================================\n");
+} else if (golsM >= 10 && golsM >= 5){
+// Saída de Dados - ("Boa temporada!")
+printf("Status: Boa temporada!\n");
+printf("%s realizou %d Gols na temporada atual, ficando na media de 10 Gols na temporada", nome, golsM);
+printf("\n======================================================================================================\n");	
+// Processamento - Se fez menos de 5 gols, exibir "Temporada abaixo do esperado."
+} else{
+// Saída de Dados - Avalia o desempenho do jogador
+printf("\n\n==================================== Desempenho do Jogador ==========================================\n");
+// Saída de Dados - ("Temporada abaixo do esperado.")
+printf("Status: Temporada abaixo do esperado.\n");
+printf("%s realizou %d Gols na temporada atual, ficando abaixo da media de 10 Gols na temporada", nome, golsM);
+printf("\n======================================================================================================\n");		
+};
 return 0;	
 }
