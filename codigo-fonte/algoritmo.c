@@ -1,12 +1,15 @@
 #include <stdio.h>
 
+// Incluindo Biblioteca Matematica
+#include <math.h>
+
 int main(){
 	
 // Variáveis de Ambiente
 
 	int idade, golsC, golsM, partidasT, minutos, horas, minutosR, vitorias, empates, derrotas, pontos;
-	float mediaG;
-	char nome[20], nomeT[20];
+	float mediaG, salario1, salario2, diferenca;
+	char nome[20], time[20], nomeJS1[20], nomeJS2[20];
 
 // Apresentação do Jogador
 
@@ -69,7 +72,7 @@ printf("Digite a quantidade de gols marcados pelo jogador na temporada atual: ")
 scanf("%d", &golsM);
 
 // Entrada de Dados - (Gols marcados pelo jogador na temporada atual)
-printf("Digite a quantidade de partidas realizadas pelo jogador na temporada atual:");
+printf("Digite a quantidade de partidas realizadas pelo jogador na temporada atual: ");
 scanf("%d", &partidasT);
 
 // Processamento de Dados - Média de gols por partida
@@ -119,20 +122,21 @@ printf("\n------------------------- Aproveitamento do Time ---------------------
 printf("\n----------------------------------------------------------------------------\n");
 
 // Entrada de Dados - (Aproveitamento do Time)
-// Entrada de Dados - Nome do Time
-printf("Digite o nome do Time: ");
-scanf("%s", &nomeT);
 
-// Entrada de Dados - Quantidade de Vitorias na Temporada
-printf("\nDigite a quantidade de vitorias do %s na temporada atual: ", nomeT);
+// Entrada de Dados - Nome do (Time)
+printf("Digite o nome do Time: ");
+scanf("%s", &time);
+
+// Entrada de Dados - Quantidade de (Vitorias) na Temporada
+printf("\nDigite a quantidade de vitorias do %s na temporada atual: ", time);
 scanf("%d", &vitorias);
 
-// Entrada de Dados - Quantidade de Empate na Temporada
-printf("\nDigite a quantidade de empates do %s na temporada atual: ", nomeT);
+// Entrada de Dados - Quantidade de (Empate) na Temporada
+printf("\nDigite a quantidade de empates do %s na temporada atual: ", time);
 scanf("%d", &empates);
 
-// Entrada de Dados - Quantidade de Derrotas na Temporada
-printf("\nDigite a quantidade de derrotas do %s na temporada atual: ", nomeT);
+// Entrada de Dados - Quantidade de (Derrotas) na Temporada
+printf("\nDigite a quantidade de derrotas do %s na temporada atual: ", time);
 scanf("%d", &derrotas);
 
 // Processamento - Calculando o aproveitamento do time
@@ -146,18 +150,69 @@ scanf("%d", &derrotas);
 pontos = (vitorias * 3) + empates;
 
 // Saída de Dados - Calculando o aproveitamento do time
-// Saída de Dados - (Aproveitamento do Time)
 printf("\n============================================= Resultado ==============================================\n");
-printf("Somando todos o dados de Vitorias, Empates e Derrotas o Time do %s acumulou serca de:", nomeT);
-printf("\n\n============ %s ===========\n", nomeT);
+printf("Somando todos o dados de Vitorias, Empates e Derrotas o Time do %s acumulou serca de:", time);
+// Saída de Dados - Nome do (Time)
+printf("\n\n============ %s ===========\n", time);
+// Saída de Dados - (Vitorias) do Time
 printf("Vitorias: %d", vitorias);
+// Saída de Dados - (Empates) do Time
 printf("\nEmpates: %d", empates);
+// Saída de Dados - (Derrotas) do Time
 printf("\nDerrotas: %d", derrotas);
+// Saída de Dados - (Total de Pontos) do Time
 printf("\nTotal de Pontos: %d", pontos);
 printf("\n================================\n\n");
+// Saída de Dados - (Aproveitamento do Time)
 printf("=======================================================================================================\n");
-printf("O Time do %s teve o aproveitamento de: %d - Pontos na Temporada", nomeT, pontos);
+printf("O Time do %s teve o aproveitamento de: %d - Pontos na Temporada", time, pontos);
 printf("\n=======================================================================================================");	
+
+
+
+// Calculando a diferença de salários entre jogadores
+printf("\n----------------------------------------------------------------------------");
+printf("\n------------------------- Diferenca de Salarial ----------------------------");
+printf("\n----------------------------------------------------------------------------\n");
+
+// Entrada de Dados - (Diferença de Salarial)
+
+// Entrada de Dados - Nome do (Jogador 1)
+printf("Digite o nome do jogador 1: ");
+scanf("%s", &nomeJS1);
+
+// Entrada de Dados - Salario do (Jogador 1)
+printf("\nDigite o valor Salarial de %s: ", nomeJS1);
+scanf("%f", &salario1);
+
+// Entrada de Dados - Nome do (Jogador 2)
+printf("\nDigite o nome do jogador 2: ");
+scanf("%s", &nomeJS2);
+
+// Entrada de Dados - Salario do (Jogador 2)
+printf("\nDigite o valor Salarial de %s: ", nomeJS2);
+scanf("%f", &salario2);
+
+
+// Processamento - Calculando a diferença de salários entre jogadores
+// Calculando a diferença salarial entre dois jogadores do mesmo time
+
+diferenca = fabs(salario1 -salario2);
+
+// Saída de Dados - Calculando a diferença de salários entre jogadores
+printf("\n============================================= Diferenca ==============================================\n");
+// Saída de Dados - (Diferença de Salarial)
+printf("A diferenca salarial entre %s e %s e de: %.2fR$", nomeJS1, nomeJS2, diferenca);
+printf("\n\n============ Salarios ===========\n");
+// Saída de Dados - Nome e Salario do (Jogador 1)
+printf("Salario do %s: %.2fR$", nomeJS1, salario1);
+// Saída de Dados - Nome e Salario do (Jogador 2)
+printf("\nSalario do %s: %.2fR$", nomeJS2, salario2);
+// Saída de Dados - (Diferença de Salarial)
+printf("\nDiferenca Salarial: %.2fR$", diferenca);
+printf("\n================================\n\n");
+printf("=======================================================================================================\n");
+
 
 return 0;	
 }
